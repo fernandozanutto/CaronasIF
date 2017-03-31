@@ -1,0 +1,16 @@
+{
+    "protocol": "ftp",
+    "host": "webacademico.feliz.ifrs.edu.br",
+    "port": 2121,
+    "user": "caronasif",
+    "pass": "fernandoetais",
+    "promptForPass": false,
+    "remote": "/",
+    "secure": false,
+    "secureOptions": null,
+    "connTimeout": 10000,
+    "pasvTimeout": 10000,
+    "keepalive": 10000,
+    "watch": [],
+    "watchTimeout": 500
+}

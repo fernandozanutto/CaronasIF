@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script src='js/jquery.js'></script>
+</head>
+
+<script>
+
+	$(document).ready(function(){
+
+		$(".a").click(function () {
+			var texto = $("#botao").val();
+			var cont = texto.length;
+			alert("voce digitou " + texto + " com " +cont + ' letras');
+		});
+	});
+
+</script>
+
+<body>
+
+
+<form action="teste.php" method="post">
+<input id = "botao" type="text" name="nome">
+<button class='a' type="button">Enviar</button>
+</form>
+</body>
+
+</html>
